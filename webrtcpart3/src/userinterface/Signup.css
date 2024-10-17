@@ -1,0 +1,149 @@
+/* .superDivSignup {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+.signup-container {
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    padding: 20px;
+}
+
+.signup-card {
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.input-icon {
+    margin-right: 8px;
+    color: #6a11cb;
+}
+
+.form-control {
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.custom-btn {
+    border-radius: 30px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background 0.3s ease;
+}
+
+.custom-btn:hover {
+    background: linear-gradient(to right, #2575fc, #80669c);
+}
+
+.signin-link {
+    color: #6a11cb;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.signin-link:hover {
+    color: #2575fc;
+}
+
+.alert-danger {
+    border-radius: 20px;
+}
+
+@media (max-width: 576px) {
+    .signup-container {
+        padding: 10px;
+    }
+} */
+
+.superDivSignup {
+    background: linear-gradient(to right, #f0f0f0, #ffffff); /* Light gray to white gradient */
+    min-height: 100vh; /* Cover full height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-container {
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff; /* White background for the container */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.signup-card {
+    border-radius: 12px;
+    border: none;
+    background-color: #f9f9f9; /* Very light gray for card background */
+    padding: 20px;
+}
+
+.input-icon {
+    margin-right: 8px;
+    color: #888888; /* Medium gray for icon color */
+}
+
+.form-control {
+    border-radius: 25px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    background-color: #ffffff; /* White background for input fields */
+    color: #333333; /* Dark gray text color for readability */
+    border: 1px solid #cccccc; /* Light gray border */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.form-control:focus {
+    background-color: #f0f0f0; /* Light gray on focus */
+    border-color: #888888; /* Slightly darker border on focus */
+    outline: none;
+}
+
+.custom-btn {
+    border-radius: 25px;
+    background: linear-gradient(to right, #ffffff, #f0f0f0); /* Light gray gradient */
+    color: #333333; /* Dark gray text color */
+    font-weight: bold;
+    padding: 12px 24px; /* Ample padding */
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.custom-btn:hover {
+    background: linear-gradient(to right, #f0f0f0, #e0e0e0); /* Slightly darker gradient on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.signin-link {
+    color: #555555; /* Medium gray for link color */
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.signin-link:hover {
+    color: #333333; /* Darker gray on hover */
+    text-decoration: underline;
+}
+
+.alert-danger {
+    border-radius: 12px;
+    background-color: #f8d7da; /* Light red background for alerts */
+    color: #721c24; /* Dark red text color for alerts */
+    padding: 12px;
+    border: 1px solid #f5c6cb; /* Light red border */
+}
+
+@media (max-width: 576px) {
+    .signup-container {
+        padding: 15px;
+    }
+}
